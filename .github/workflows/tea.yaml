@@ -16,4 +16,4 @@ jobs:
             - name: tea
               run: npm tea --access public
               env:
-                  NODE_AUTH_TOKEN: ${{secrets.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}}
+                  NPM_AUTH_TOKEN: ${{secrets.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}}
