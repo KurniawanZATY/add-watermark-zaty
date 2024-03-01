@@ -13,7 +13,7 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org
-            - name: publish
-              run: npm publish --access public
+            - name: tea
+              run: npm tea --access public
               env:
                   NODE_AUTH_TOKEN: ${{secrets.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}}
